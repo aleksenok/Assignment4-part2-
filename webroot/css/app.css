@@ -1,0 +1,22 @@
+.message {
+  text-align: center;
+  background-color: white;
+  padding: 1%;
+  color: indigo;
+  font-size: 1.2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.message.error {
+  background-color: white;
+  padding: 1%;
+  color: crimson;
+  font-size: 1.2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
